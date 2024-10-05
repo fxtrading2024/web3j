@@ -12,7 +12,7 @@ Web3j is a lightweight, highly modular, reactive, type safe Java and
 Android library for working with Smart Contracts and integrating with
 clients (nodes) on the Ethereum network:
 
-![image](https://github.com/web3j/web3j-docs/blob/master/docs/img/web3j_network.png)
+![image](https://github.com/hyperledger/web3j-docs/blob/main/docs/img/web3j_network.png)
 
 This allows you to work with the [Ethereum](https://www.ethereum.org/)
 blockchain, without the additional overhead of having to write your own
@@ -118,9 +118,12 @@ Java:
 <dependency>
   <groupId>org.web3j</groupId>
   <artifactId>core</artifactId>
-  <version>4.11.2</version>
+  <version>4.12.2</version>
 </dependency>
 ```
+
+**Note:** The Web3j Java binaries are compiled using Java 17. Java 17 or a more recent version is required to use Web3j
+ as a dependency.
 
 Android:
 
@@ -128,7 +131,7 @@ Android:
 <dependency>
   <groupId>org.web3j</groupId>
   <artifactId>core</artifactId>
-  <version>4.8.7-android</version>
+  <version>4.8.9-android</version>
 </dependency>
 ```
 
@@ -138,13 +141,13 @@ Gradle
 Java:
 
 ```groovy
-implementation ('org.web3j:core:4.11.2')
+implementation ('org.web3j:core:4.12.2')
 ```
 
 Android:
 
 ```groovy
-implementation ('org.web3j:core:4.8.7-android')
+implementation ('org.web3j:core:4.8.9-android')
 ```
 
 Build instructions
